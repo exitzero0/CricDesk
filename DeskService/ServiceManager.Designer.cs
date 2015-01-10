@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.CricDeskEventLog = new System.Diagnostics.EventLog();
+            ((System.ComponentModel.ISupportInitialize)(this.CricDeskEventLog)).BeginInit();
+            // 
+            // ServiceManager
+            // 
             this.ServiceName = "Service1";
+            ((System.ComponentModel.ISupportInitialize)(this.CricDeskEventLog)).EndInit();
+
         }
 
         #endregion
+
+        private System.Diagnostics.EventLog CricDeskEventLog;
     }
 }
