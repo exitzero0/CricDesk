@@ -14,12 +14,17 @@ namespace DeskService
         /// </summary>
         static void Main()
         {
+#if(!DEBUG)
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
             { 
-                new Service1() 
+                new ServiceManager() 
             };
             ServiceBase.Run(ServicesToRun);
+#else
+            ServiceManager myServ = new ServiceManager();
+            myServ.TestFunction();
+#endif
         }
     }
 }
