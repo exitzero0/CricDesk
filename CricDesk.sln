@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{824AD17D-3944-4D7B-91C7-5EFA35CCBA3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskService", "DeskService\DeskService.csproj", "{8CFBE10A-73A6-43DF-A9D9-1666E61DB833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desk", "Desk\Desk.csproj", "{C781B714-738F-4888-B046-92FFC3FCF7B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{824AD17D-3944-4D7B-91C7-5EFA35CCBA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824AD17D-3944-4D7B-91C7-5EFA35CCBA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824AD17D-3944-4D7B-91C7-5EFA35CCBA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824AD17D-3944-4D7B-91C7-5EFA35CCBA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFBE10A-73A6-43DF-A9D9-1666E61DB833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFBE10A-73A6-43DF-A9D9-1666E61DB833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFBE10A-73A6-43DF-A9D9-1666E61DB833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFBE10A-73A6-43DF-A9D9-1666E61DB833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C781B714-738F-4888-B046-92FFC3FCF7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C781B714-738F-4888-B046-92FFC3FCF7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C781B714-738F-4888-B046-92FFC3FCF7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C781B714-738F-4888-B046-92FFC3FCF7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
